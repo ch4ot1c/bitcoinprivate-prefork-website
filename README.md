@@ -12,6 +12,7 @@ You can quickly get a local server running for testing and developing using the 
 
 ```
 cd dev
+sudo npm install -g bower
 npm install
 bower install
 npm run dev

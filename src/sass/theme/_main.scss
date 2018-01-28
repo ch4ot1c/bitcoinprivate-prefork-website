@@ -3,16 +3,24 @@
  */
 
 #logo {
-  height: 50px;
-
+  height: 82px;
+  max-width: 100px;
   @media (max-width: $screen-sm-min) {
-    height: 35px;
-    margin-top: 5px;
+    height: 82px; 
+    max-width: 200px;
   }
 }
 
 .navbar-toggle {
   background: $color-white;
+}
+
+.navbar-nav > li > a {
+  line-height: inherit;
+}
+
+.navbar-nav > li > a#logo {
+  padding-top: 20px;
 }
 
 #navbar-collapse {
