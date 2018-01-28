@@ -8390,14 +8390,18 @@ html, body {
  * Main
  */
 #logo {
-  height: 50px; }
+  height: 82px;
+  max-width: 100px; }
   @media (max-width: 768px) {
     #logo {
-      height: 35px;
-      margin-top: 5px; } }
+      height: 82px;
+      max-width: 200px; } }
 
 .navbar-toggle {
   background: #FFFFFF; }
+
+.navbar-nav > li > a {
+  line-height: inherit; }
 
 @media (max-width: 768px) {
   #navbar-collapse {
